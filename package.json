@@ -1,0 +1,51 @@
+{
+  "name": "dimension-mcp",
+  "version": "0.1.0",
+  "description": "MCP server that lets Claude Code, Codex and other AI agents drive Adobe Dimension: models, materials, decals, cameras, Match Image and rendering.",
+  "type": "module",
+  "bin": {
+    "dimension-mcp": "src/index.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "src",
+    "skills",
+    "AGENTS.md",
+    "README.md",
+    "README.ar.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "smoke": "node scripts/smoke.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "esbuild": "^0.28.2"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "adobe-dimension",
+    "dimension",
+    "3d",
+    "product-mockup",
+    "claude",
+    "claude-code",
+    "codex",
+    "ai-agent"
+  ],
+  "author": "Fatimah Almehmadi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatoomdes-lang/dimension-mcp.git"
+  },
+  "homepage": "https://github.com/fatoomdes-lang/dimension-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/fatoomdes-lang/dimension-mcp/issues"
+  },
+  "license": "MIT"
+}
